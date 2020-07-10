@@ -13,8 +13,5 @@
             $this->$atributo = $valor;
         }
     }
-
-
-
-
+    
 ?>

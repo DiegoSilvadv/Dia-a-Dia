@@ -9,7 +9,7 @@
             "email": "diego@gmail.com"
         }
     ],
-    "autoLoad": {
+    "autoload": {
         "psr-4": {
             "sistema_tarefa\\": "sistema_tarefa/",
             "dependencia\\": "vendor/depedencia/"
