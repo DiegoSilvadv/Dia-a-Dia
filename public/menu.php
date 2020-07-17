@@ -9,10 +9,10 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">Adicionar</a>
+        <a class="nav-link" href="nova_tarefa.php">Adicionar</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Listar</a>
+        <a class="nav-link" href="listar_tarefa.php?botao=buscar">Listar</a>
       </li>
     </ul>
   </div>

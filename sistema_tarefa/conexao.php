@@ -1,11 +1,11 @@
 <?php
-    namespace Connect;
+    namespace sistema_tarefa;
     use \PDO;
     use \PDOException;
 
-    class Connect {
+    final class Conexao {
         const host = 'localhost';
-        const database = 'GERENCIADOR_TAREFAS';
+        const database = 'gerenciador_tarefas';
         const user = 'root';
         const password = '';
         const charset = 'utf8mb4';
@@ -18,8 +18,6 @@
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_OBJ,
             PDO::ATTR_CASE=>PDO::CASE_NATURAL
         ];
-
-
 
         public static $instance;
 
@@ -42,12 +40,6 @@
         final private function __clone(){}
         
     }
-
-
-
-
-
-
 
 
 
